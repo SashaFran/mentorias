@@ -37,6 +37,45 @@ body{
 }
 
 
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    margin-top: 8%;
+    display: grid;
+    grid-gap: 5%;
+  }
+
+#contenedor{
+    gap: 2%;
+}
+
+.titulo .biografia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.titulo{
+    align-self: center;
+}
+
+.biografia{
+    margin-bottom: 5%;
+    justify-content: center;
+    font-family: 'Bodoni Moda', serif;
+    gap: 3%;
+}
+.titulo h1, #ejemplo p{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.titulo h4 p{
+    justify-content: flex-end;
+}
+
+
 .biografia p{
     font-style: italic;
 }
@@ -68,6 +107,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 1%;
 }
 
 #ejemplo{
@@ -88,6 +128,7 @@ body{
     visibility: visible;
     display : inline !important;
 }
+
 
 
 
