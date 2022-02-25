@@ -8,6 +8,10 @@ body{
     grid-gap: 5%;
   }
 
+#contenedor{
+    gap: 2%;
+}
+
 .titulo .biografia{
     display: flex;
     flex-direction: column;
@@ -19,7 +23,10 @@ body{
 }
 
 .biografia{
-    margin-bottom: 2%;
+    margin-bottom: 5%;
+    justify-content: center;
+    font-family: 'Bodoni Moda', serif;
+    gap: 3%;
 }
 .titulo h1, #ejemplo p{
     font-family: 'Roboto Condensed', sans-serif;
@@ -29,11 +36,6 @@ body{
     justify-content: flex-end;
 }
 
-.biografia{
-    justify-content: center;
-    font-family: 'Bodoni Moda', serif;
-    gap: 10px;
-}
 
 .biografia p{
     font-style: italic;
