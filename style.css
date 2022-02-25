@@ -1,0 +1,91 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    margin-top: 8%;
+    display: grid;
+    grid-gap: 5%;
+  }
+
+.titulo .biografia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.titulo{
+    align-self: center;
+}
+
+.biografia{
+    margin-bottom: 2%;
+}
+.titulo h1, #ejemplo p{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.titulo h4 p{
+    justify-content: flex-end;
+}
+
+.biografia{
+    justify-content: center;
+    font-family: 'Bodoni Moda', serif;
+    gap: 10px;
+}
+
+.biografia p{
+    font-style: italic;
+}
+
+.biografia h4{
+    font-weight: lighter;
+}
+#dot {
+    height: 200px;
+    width: 200px; 
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.cuadrado, #btn{
+    flex: 0 0 200px;
+    height: 200px;
+    width: 200px; 
+    background-color: #bbb;
+    text-decoration: none;
+}
+
+.cuadrado:hover{
+    opacity: 70%;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ejemplo{
+    visibility: hidden;
+    display: none;
+}
+
+#ejemplo p{
+    margin: 0;
+    text-align: center;
+}
+
+.visible{
+    background-color: white;
+    color: black;
+    opacity: 70%;
+    box-shadow: black 2px;
+    visibility: visible;
+    display : inline !important;
+}
+
+
+
