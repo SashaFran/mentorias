@@ -139,7 +139,7 @@ main h2, main h3{
 }
 /* Anidando selectores evitamos el codigo repetido */
 aside{
-    rotate: 90deg;
+    transform: rotate(90deg);
     align-self: center;
     width: 100%;
 }
